@@ -1,0 +1,67 @@
+//You manage a grocery store and need to keep track of the inventory of various items. You will use arrays to store the data and various functions to manipulate and analyze the data. 
+
+
+//Create an array containing the names of all items in the inventory maximum of 10.
+let arr1 =["Banana","Orange","Mangoes","Pineapple","Apple","Chillies","Tomato","Pepper","Sweetpotatoes"]
+
+
+Create a separate array with the corresponding stock quantities of each item maximum of 10.
+let arr2 =let stockquantity=[90,13,167,208,78,56,8,91,69,77]
+
+    //Write a function to add a new item to the inventory, updating both arrays.
+function add(array,quantity){
+    if(stock array.length >=10){
+        console.log("no stock")
+    }
+    else{
+       stockarray.(array)
+       stockquantity.push(quantity)
+       console.log(`I added ${array} to ${quantity}`)
+          }
+    // let a= array.push("coconut")
+    // console.log(array)
+    // let b = quantity.push(91)
+    // console.log(quantity)
+}
+    add("sugarcane",167)
+   console.log(stockquantity)
+  console.log(stockarray)
+
+
+//Write a function to update the stock quantity of an existing item.
+let
+function update(stockquantity){
+    stockquantity[4]=208;
+    // console.log(`${stock} has been updated to ${quantity}`)
+    console.log(stockquantity)
+}
+  update("mangoes",167)
+
+
+//Write a function to calculate the total number of items in the inventory.
+
+function addall(quantity)
+    let sum=0;
+    stockquantity.forEach(element => {
+        sum+=element
+    });
+    console.log(sum)
+
+
+//Write a function to find the item with the lowest stock quantity.
+// Function to find the item with the lowest stock quantity
+function findLowestStock() {
+  let lowestStock = stockQuantities[0];
+  let lowestIndex = 0;
+  for (let j = 0; j < Stockquantities.length; j++) {
+    if (stockquantities[j] < lowestStock) {
+      lowestStock = Stockquantities[j];
+      lowestIndex = j;
+    }
+  }
+  return inventoryItems[lowestIndex];
+}
+console.log(suchLowestStock());
+
+
+
